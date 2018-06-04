@@ -1,0 +1,30 @@
+#sec3 {
+	background-color: $success;
+	padding-top: 108px;
+	padding-bottom: 87px;
+	.sec-title {
+		h2 {
+			top: 10px;
+			left: 19px;
+		}
+	}
+	#our-services {
+		padding-top: 84px;
+			.services {
+			background-color: #fff;
+			padding: 40px 0;
+			padding-left: 40px;
+		}
+		#ser-img-1 {
+			background-image: url("../images/special-occasions.png");
+			background-size: cover;
+			height: 255px;
+		}
+
+		#ser-img-2 {
+			background-image: url("../images/live-plants.png");
+			background-size: cover;
+			height: 255px;
+		}
+	}
+}

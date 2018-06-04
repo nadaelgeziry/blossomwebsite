@@ -1,0 +1,60 @@
+// /* Colors */
+
+$primary:       #cc7c8b;
+$secondary:     #7e7e95;
+$success:       #f2f2f2;
+$info:          #e9e8e8;
+
+// /* Font Sizes*/
+
+$s:		14px;
+$m:		18px;
+$l:		24px;
+$xl:	30px;
+$xxl:	72px;
+
+$title: preside;
+$subtitle: RalewaySemibold;
+$text: RalewayMedium;
+
+// /* navbar */
+
+$navbar-padding-y:	10px;
+$navbar-padding-x:	24px;
+
+// $container-max-widths: (
+//   sm: 562px,
+//   md: 762px,
+//   lg: 102px,
+//   xl: 1182px
+// );
+
+
+@media (min-width: 576px) {
+    html { $s:		14px;
+$m:		18px;
+$l:		24px;
+$xl:	30px;
+$xxl:	40px; }
+}
+@media (min-width: 768px) {
+    html { $s:		14px;
+$m:		18px;
+$l:		24px;
+$xl:	30px;
+$xxl:	40px; }
+}
+@media (min-width: 992px) {
+    html { $s:		14px;
+$m:		18px;
+$l:		24px;
+$xl:	30px;
+$xxl:	72px; }
+}
+@media (min-width: 1200px) {
+    html { $s:		14px;
+$m:		18px;
+$l:		24px;
+$xl:	30px;
+$xxl:	72px; }
+}

@@ -1,0 +1,27 @@
+#sec4 {
+	background-color: $info;
+	padding-top: 108px;
+	padding-bottom: 32px;
+	.sec-title {
+		h2 {
+			font-size: 29px;
+			top: 9px;
+			left: 16px;
+		}
+	}
+	#designers {
+		padding-top: 66px;
+		.card-title {
+			text-align: center;
+			margin: 0;
+			.designer-name {
+				font-family: $subtitle;
+				font-size: $m;
+				color: $secondary;
+				padding-top: 15px;
+				padding-bottom: 5px;
+				margin: 0;
+			}
+		}
+	}
+}

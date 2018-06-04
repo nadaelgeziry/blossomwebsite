@@ -1,0 +1,48 @@
+#sec1 {
+	background-color: $success;
+	background-image: url("../images/section1.png");
+	background-size: cover;
+	padding-top: 108px;
+	padding-bottom: 87px;
+	width: 100%;
+	position: relative;
+	.parent-div {
+		padding-top: 180px;
+		padding-bottom: 203px;
+	}
+
+	#floating-flower {
+		position: absolute;
+		top: -45%;
+		left: -20%;
+	}
+	@include for-size(big-desktop-up) {
+		#floating-flower {
+			top: -45%;
+			left: -20%;
+			/*display: none;*/
+		}
+	}
+	@include for-size(desktop-up) {
+		#floating-flower {
+			top: -45%;
+			left: -30%;
+			display: none;
+		}
+	}
+	@include for-size(tablet-landscape-up) {
+		#floating-flower {
+			display: none;
+		}
+	}
+	@include for-size(tablet-portrait-up) {
+		#floating-flower {
+			display: none;
+		}
+	}
+	@include for-size(phone-only) {
+		#floating-flower {
+			display: none;
+		}
+	}
+}

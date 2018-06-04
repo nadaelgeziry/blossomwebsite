@@ -1,0 +1,30 @@
+#sec5 {
+	padding: 115px 0;
+	background-image: url("../images/section5.png");
+	background-size: cover;
+	h1 {
+		font-family: $title;
+		font-size: 36px;
+		color: $secondary;
+		text-align: center;
+		margin-bottom: 38px;
+	}
+	.my-input {
+		margin: 0 auto;
+		input {
+			border: 3px solid $primary;
+			border-radius: 0;
+			font-family: $text;
+			font-size: $m;
+			color: $secondary;
+		}
+		button {
+			background-color: $primary;
+		  	// padding: 10px 30px;
+		  	border-radius: 0;
+		  	font-size: $m;
+		  	font-family: $subtitle;
+		  	color: #fff;
+		}
+	}
+}
